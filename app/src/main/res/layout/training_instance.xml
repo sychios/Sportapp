@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_element"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="@color/Darkblue"
+    tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/rv_trainingInstanceCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kraft/Ausdauer |"
+            android:textColor="@color/Honeywhite"
+            android:textSize="25dp"
+            android:gravity="left"
+            android:layout_weight=".40"
+            />
+        <TextView
+            android:id="@+id/rv_trainingInstanceDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 60 Minuten "
+            android:textColor="@color/Honeywhite"
+            android:textSize="25dp"
+            android:gravity="right"
+            />
+        <TextView
+            android:id="@+id/rv_trainingInstanceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| 26/12/2020"
+            android:textColor="@color/Honeywhite"
+            android:textSize="25dp"
+            android:gravity="right"
+            />
+</LinearLayout>

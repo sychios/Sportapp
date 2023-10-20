@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.Sportapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Blue</item>
+        <item name="colorPrimaryVariant">@color/rv_textcolor_dark</item>
+        <item name="colorOnPrimary">@color/rv_textcolor_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Lightblue</item>
+        <item name="colorSecondaryVariant">@color/LightOrange</item>
+        <item name="colorOnSecondary">@color/rv_textcolor_dark</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:headerBackground">@color/rv_textcolor_dark</item>
+
+        <item name="android:textColorPrimary">@color/Honeywhite</item>
+    </style>
+</resources>

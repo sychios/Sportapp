@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rv_background">#EAE2B7</color>
+    <color name="Honeywhite">#F1FAEE</color>
+
+    <color name="Imperialred">#E63946</color>
+    <color name="Lightblue">#A8DADC</color>
+    <color name="Blue">#457B9D</color>
+    <color name="Darkblue">#1D3557</color>
+    <color name="LightOrange">#FB8B00</color>
+
+    <color name="rv_textcolor_dark">#0E131F</color>
+    <color name="rv_textcolor_light">#F1FAEE</color>
+
+
+    <color name="rv_bgcolor_Laufen">#14213d</color>
+    <color name="rv_bgcolor_Yoga">#8d99ae</color>
+    <color name="rv_bgcolor_Übungen">#432818</color>
+
+    <color name="rv_bgcolor_Burpees">#7f1817</color>
+    <color name="rv_bgcolor_Strength">#bb9457</color>
+
+    <color name="rv_bgcolor_Seilklettern">#fb8500</color>
+    <color name="rv_bgcolor_Bouldern">#fca311</color>
+
+    <color name="rv_bgcolor_AeroPow">#9e2a2b</color>
+    <color name="rv_bgcolor_AeroCap">#540b0e</color>
+    <color name="rv_bgcolor_AnCap">#a3b18a</color>
+    <color name="rv_bgcolor_AnPow">#3a5a40</color>
+
+    <!--<color name="rv_bgcolor_Laufen">#F34508</color>
+    <color name="rv_bgcolor_Yoga">#499167</color>
+    <color name="rv_bgcolor_Übungen">#FFAD05</color>
+    <color name="rv_bgcolor_Burpees">#E09F3E</color>
+    <color name="rv_bgcolor_AeroCap">#063828</color>
+    <color name="rv_bgcolor_AeroPow">#234157</color>
+    <color name="rv_bgcolor_AnCap">#2A1A1F</color>
+    <color name="rv_bgcolor_AnPow">#FCFC62</color>
+    <color name="rv_bgcolor_Strength">#100007</color>
+    <color name="rv_bgcolor_Seilklettern">#2C302E</color>
+    <color name="rv_bgcolor_Bouldern">#AAAE7F</color>-->
+</resources>

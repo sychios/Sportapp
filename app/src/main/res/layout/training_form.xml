@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Honeywhite"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- Trainingsdauer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/input_label_duration"
+            android:textColor="@color/Darkblue"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <!-- Time Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:id="@+id/button_duration_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:textSize="24dp"
+                android:text="@string/button_label_duration_15_minutes"
+                android:textColor="@color/Darkblue"
+                android:backgroundTint="@color/Lightblue"/>
+            
+            <Button
+                android:id="@+id/button_duration_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:textSize="24dp"
+                android:text="@string/button_label_duration_30_minutes"
+                android:textColor="@color/Darkblue"
+                android:backgroundTint="@color/Lightblue"/>
+
+            <Button
+                android:id="@+id/button_duration_60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:textSize="24dp"
+                android:text="@string/button_label_duration_60_minutes"
+                android:textColor="@color/Darkblue"
+                android:backgroundTint="@color/Lightblue"/>
+        </LinearLayout>
+
+        <!-- Manuelle Trainingsdauereingabe -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_duration_manually"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_label_duration_manually"
+                android:textSize="21dp"
+                android:textColor="@color/Darkblue"
+                android:backgroundTint="@color/LightOrange"/>
+
+            <EditText
+                android:id="@+id/input_training_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/input_hint_duration"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:textColor="@color/rv_textcolor_dark"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Art des Trainings als Dropdown o.ä. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/input_label_category"
+            android:textColor="@color/Darkblue"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/spinner_training_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_gravity="left"
+            android:dropDownSelector="@color/rv_textcolor_dark"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <!-- Zurück-/Erstellen-Buttonzeile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp">
+
+        <!-- Button zum Abbrechen -->
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/Imperialred"
+            android:text="@string/button_label_cancel"
+            android:textColor="@color/Honeywhite"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <!-- Button zum Abschließen -->
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/Blue"
+            android:text="@string/button_label_finish"
+            android:textColor="@color/rv_textcolor_dark"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>

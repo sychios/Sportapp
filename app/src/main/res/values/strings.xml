@@ -1,0 +1,51 @@
+<resources>
+    <!-- Allgemein-->
+    <string name="app_name">Tracko del Sporto</string>
+
+    <!-- activity_main.xml -->
+    <string name="button_label_add_training">Training</string>
+    <string name="button_label_statistics">Statistics</string>
+    <string name="message_success">Training hinzugefügt</string>
+    <string name="no_training">Mach endlich Sport dann steht hier auch was.</string>
+
+
+
+    <!-- training_form.xml -->
+    <string name="activity_label_traininform">Training eingeben</string>
+
+    <!-- Trainingsdauerbuttons-->
+    <string name="input_label_duration">Trainingsdauer</string>
+    <string name="input_hint_duration">in Minuten</string>
+    <string name="button_label_duration_15_minutes">15 Minuten</string>
+    <string name="button_label_duration_30_minutes">30 Minuten</string>
+    <string name="button_label_duration_60_minutes">60 Minuten</string>
+    <string name="button_label_duration_manually">Manuelle Eingabe</string>
+
+
+    <string name="input_label_category">Art des Trainings</string>
+    <string name="input_hint_category">Maximalkraft/Ausdauer</string>
+
+    <string name="button_label_cancel">Zurück</string>
+    <string name="button_label_finish">Erstellen</string>
+
+    <!-- Button Abschließen-->
+
+    <!-- TrainingFormActivity.java: Standard-Kategorien -->
+    <string-array name="standard_categories_names">
+        <item>Keine ausgewählt</item>
+        <item>Laufen</item>
+        <item>Yoga</item>
+        <item>Übungen</item>
+        <item>Burpees</item>
+        <item>AeroCap</item>
+        <item>AeroPow</item>
+        <item>AnCap</item>
+        <item>AnPow</item>
+        <item>Strength</item>
+        <item>Seilklettern</item>
+        <item>Bouldern</item>
+    </string-array>
+
+    <!-- Statistic Fragment Screen Slider Text -->
+    <string name="statistic_fragment_screen_slider_text">Text des fragment screen slider textes</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Honeywhite"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/rv_background">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_element"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/rv_background">
+
+        <Button
+            android:id="@+id/button_options"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/button_label_statistics"
+            android:textColor="@color/rv_textcolor_dark"
+            android:textSize="24sp"
+            app:backgroundTint="@color/LightOrange" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_add_training"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/button_label_add_training"
+            android:textColor="@color/rv_textcolor_dark"
+            android:textSize="24sp"
+            app:backgroundTint="@color/Blue" />
+    </LinearLayout>
+</LinearLayout>
